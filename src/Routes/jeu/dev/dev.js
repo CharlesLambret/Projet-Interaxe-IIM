@@ -75,8 +75,8 @@ export default function Dev(props){
             }
 			{showScore ? (
 				<div className='score-section' class="finetape">
-					<p>Félicitations vous avez terminé cette étape ! </p>
-                    <button class="bouton" onClick={RedirectHub}>Cliquez ici pour retourner au hub</button>
+					<p>Félicitations tu as terminé cette étape ! </p>
+                    <button class="bouton" onClick={RedirectHub}>Clique ici pour retourner au hub</button>
 				</div>
 			) : (
 				<>

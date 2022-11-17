@@ -10,6 +10,7 @@ body{
     align-items:center;
     justify-content:center;
     margin-bottom:8vh;
+    
 }
 .iconeetape{
     width:22vw !important;
@@ -17,6 +18,7 @@ body{
 }
 .ContenantEnigme h1{
     text-align:center;
+    align-self:center;
     margin-top:8vh;
     margin-bottom:6vh;
 }
@@ -26,6 +28,9 @@ body{
     margin-bottom:2vh;
     text-align:justify;
 }
+#texteavatar{
+    text-align:center !important;
+}
 .ContenantEnigme button{
     margin-top:5vh;
     margin-left:1vw;
@@ -33,10 +38,44 @@ body{
 }
 .sectionreponse{
     text-align:center;
+    
+}
+.reponseavatar{
+    width:60vw;
+    display:flex;
+    flex-direction:row;flex-wrap: wrap;
 }
 .finetape{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+}
+.contenujv{
+    display:flex;flex-direction:column;
+    justify-content:center;align-items:center;
+}
+.victoire{
+    display:flex;flex-direction:column;
+    justify-content:center;align-items:center;
+}
+.colonneavatar{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:12vw;
+    margin-right:1.5vw;
+    margin-left:1.5vw;
+    cursor:pointer;
+}
+.petiteimage{
+    max-width:100%;
+    margin-top:5vh;
+    margin-bottom:-1vh !important;
+}
+.texteindice{
+    color: var(--texte-alt );
+    width:60vw;
+    text-align:center;
 }
