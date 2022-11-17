@@ -39,7 +39,7 @@ export default function Dev(props){
 
     let navigate = useNavigate()
     function RedirectHub(){ 
-        navigate("/hub", { replace: true });
+        navigate("/hub5", { replace: true });
 
     };
 	const handleAnswerOptionClick = (isCorrect) => {

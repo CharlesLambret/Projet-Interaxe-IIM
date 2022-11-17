@@ -10,6 +10,9 @@
     width:30vw;
     background-color: var(--normal);
     display:flex;
+    margin-top:3vh;
+    border-radius:15px;
+    padding:3%;
     align-items:center;
     justify-content:center;
 }

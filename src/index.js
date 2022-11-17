@@ -11,15 +11,17 @@ import reportWebVitals from './reportWebVitals';
 import IIM from './Routes/prologue/iim';
 import IIMCorrupt from './Routes/prologue/iimcorrupt';
 import Hub from "./Routes/hub/hub";
-import FormValidation from './Routes/tests/devtest2';
+import Hub2 from "./Routes/hub/hub2";
+import Hub3 from "./Routes/hub/hub3";
+import Hub4 from "./Routes/hub/hub4";
+import Hub5 from "./Routes/hub/hub5";
+import Hub6 from "./Routes/hub/hub6";
 import TroisD from './Routes/jeu/3D/3D';
-import JV from './Routes/jeu/JV/jv';
+import JeuVideo from './Routes/jeu/JV/jv';
 import Dev from './Routes/jeu/dev/dev';
 import Crea from './Routes/jeu/Créa-Design/crea';
 import Com from './Routes/jeu/Com/com';
-import TestForm from './Routes/jeu/dev/testdev';
 
-import Jeu from './Routes/tests/testjeu';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +37,26 @@ const router = createBrowserRouter([
     element: <Hub/>
   },
   {
+    path: "/hub2",
+    element: <Hub2/>
+  },
+  {
+    path: "/hub3",
+    element: <Hub3/>
+  },
+  {
+    path: "/hub4",
+    element: <Hub4/>
+  },
+  {
+    path: "/hub5",
+    element: <Hub5/>
+  },
+  {
+    path: "/hub6",
+    element: <Hub6/>
+  },
+  {
     path: "/developpement",
     element: <Dev/>
   },
@@ -43,8 +65,8 @@ const router = createBrowserRouter([
     element: <Crea/>
   },
   {
-    path: "/jeu-vidéo",
-    element: <JV/>
+    path: "/jeu-video",
+    element: <JeuVideo/>
   },
   {
     path: "/communication",
@@ -54,14 +76,6 @@ const router = createBrowserRouter([
     path: "/3D",
     element: <TroisD/>
   },
-  {
-    path: "/testsjeu",
-    element: <Jeu/>
-  },
-  /*{
-    path:"/glitch",
-    element: <PageGlitch/>
-  },*/
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

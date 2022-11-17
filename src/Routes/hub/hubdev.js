@@ -3,6 +3,7 @@ import BoutonScenar from "../../Composants/boutonscenar/boutoninfoscenar";
 import { useNavigate } from "react-router-dom";
 import {useState} from "react";
 import Dev from "../jeu/dev/dev";
+import ContexteAvancement  from "./Avancement/avancement";
 
 const Carte1= require("../../img/Carte1.png");
 const TroisDLock= require("../../img/3Dlock.png");
@@ -19,7 +20,7 @@ export default function Hub(Dev){
     let navigate = useNavigate();
     function Redirect3D (){ navigate("/3D", { replace: true })};
     function RedirectCom(){ navigate("/communication", { replace: true })};
-    function RedirectJV(){ navigate("/jeu-vidéo", { replace: true })};
+    function RedirectJV(){ navigate("/jeu-video", { replace: true })};
     function RedirectCrea(){ navigate("/crea-design", { replace: true })};
     function RedirectDev(){ navigate("/developpement", { replace: true })};
 
@@ -32,47 +33,43 @@ export default function Hub(Dev){
             </div>
             <div class="Contenantenigmes">
                 <div id="contenant3D" class="contenantgauche" onClick={Redirect3D}>
-                    <img class="iconelock" src={TroisDLock}/>
+                    <img class="iconeetape" src={TroisDLock}/>
                     <div class="colonnetexte">
                         <h2>3D</h2>
                         <p>Crée ton avatar</p>
                     </div>
                 </div>
                 <div id="contenantCom" class="contenantdroite" onClick={RedirectCom}>
-                    <img class="iconelock" src={ComLock}/>
+                    <img class="iconeetape" src={ComLock}/>
                     <div class="colonnetexte">
                         <h2>Communication Digitale </h2>
                         <p>Insère des identifiants</p>
                     </div>
                 </div>
                 <div id="contenantDesign" class="contenantgauche" onClick={RedirectCrea}>
-                    <img class="iconelock" src={DesignLock}/>
+                    <img class="iconeetape" src={DesignLock}/>
                     <div class="colonnetexte">
                         <h2>Création Design</h2>
                         <p>Reproduis le graphisme</p>
                     </div>
                 </div>
-                {
-                    showUnlockDev?
                         <div id="contenantDev" class="contenantdroite">
-                            <img class="iconelock" src={DevUnlock}/>
+                            <img class="iconeetape" src={DevUnlock}/>
                             <div class="colonnetexte">
                                 <h2>Développement</h2>
                                 <p>Tu as créé la puce de la carte !</p>
                             </div>
                         </div>
-                        : 
+                        
                         <div id="contenantDev" class="contenantdroite" onClick={RedirectDev}>
-                            <img class="iconelock" src={DevLock}/>
+                            <img class="iconeetape" src={DevLock}/>
                             <div class="colonnetexte">
                                 <h2>Développement</h2>
                                 <p>Résous les bugs</p>
                             </div>
                         </div>
-                }
-                
                 <div id="contenantJV" class="contenantgauche" onClick={RedirectJV}>
-                    <img class="iconelock" src={JVLock}/>
+                    <img class="iconeetape" src={JVLock}/>
                     <div class="colonnetexte">
                         <h2>Jeux Vidéo</h2>
                         <p>Détruis le virus</p>

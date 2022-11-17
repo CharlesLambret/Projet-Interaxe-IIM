@@ -43,9 +43,12 @@
 }
 .colonnetexte h2, .colonnetexte p{
     margin:0px;
-    cursor: pointer;
+   
 }
-.iconelock{
+.iconeetape{
     max-width:20vw;
-    cursor: pointer;
+    
+}
+.active{
+    cursor:pointer;
 }

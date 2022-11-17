@@ -12,7 +12,7 @@ export default function BoutonScenar (){
             <Button id="boutonscenar" onClick={()=>setShow(!show)}><img class="iconescenar" src={Iconescenar}/> </Button>
             {
             show?<Box id="rappel">
-                <p class="textemodal"> LA MODALE</p>
+                <p class="textemodal"> Le site de l’IIM est hacké ! Débloque les pare-feux et crée ta carte étudiante pour rentrer dans l’IIM. Bon courage !</p>
             </Box>:null
             }
         </div>
