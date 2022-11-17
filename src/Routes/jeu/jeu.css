@@ -1,0 +1,42 @@
+@import "../../index.css";
+body{
+    background-image: url("../../img/backgroundenigmes.png");
+    background-size:100%;
+}
+.ContenantEnigme{
+    margin-top:5vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:8vh;
+}
+.iconeetape{
+    width:22vw !important;
+    margin-left:0px !important;
+}
+.ContenantEnigme h1{
+    text-align:center;
+    margin-top:8vh;
+    margin-bottom:6vh;
+}
+
+.ContenantEnigme img, .ContenantEnigme h3{
+    width:67vw;
+    margin-bottom:2vh;
+    text-align:justify;
+}
+.ContenantEnigme button{
+    margin-top:5vh;
+    margin-left:1vw;
+    margin-right:1vw;
+}
+.sectionreponse{
+    text-align:center;
+}
+.finetape{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}

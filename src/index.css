@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-image: url("./img/background.png"); 
+    background-size:100%;
+    padding:0px;
+    margin:0px;
+
+}
+:root{
+    --light: #EFFEED;
+    --light-over:#E8FEE4;
+    --light-active:#CFFDC8;
+    --normal : #63F74D;
+    --normal-hover:#59DE45;
+    --normal-active:#4FC63E;
+    --dark:#4AB93A;
+    --dark-hover:#3B942E;
+    --dark-active:#2D6F23;
+    --darker:#23561B;
+    --texte-alt : white;
+    --background-black : #2D2A2A;
+    --bouton : #08af2f;
+}
+h1, h2, h3 {
+    font-family: "Hack", bold;
+    color: var(--normal);
+}
+button{
+    font-family: "Hack", bold;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p, a {
+    font-family: "Hack";
+    color: var(--normal);
+}
+h1{
+
+}
+h2{
+    font-size:30px;
+}
+
+h3{
+
+}
+p{
+    font-size:22px;
+}
+a{
+
+}
+.bouton{
+    background-color: var(--bouton);
+    box-shadow: rgba(207, 253, 200, 0.2) 0px 8px 24px;
+    border-radius:10px;
+    width:27vw;
+    height:7vh;
+    border:none;
+    color: white;
+}
+.bouton :hover{
+    background-color:var(--normal-hover)
 }
