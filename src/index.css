@@ -24,16 +24,20 @@ h1, h2, h3 {
     font-family: "Hack", bold;
     color: var(--normal);
 }
-button{
+button, a{
     font-family: "Hack", bold;
-    color: white;
+    color: white !important;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
+}
+a :hover {
+    background-color:var(--normal);
 }
 span{
     font-style:bold;
 }
-p, a {
+p {
     font-family: "Hack";
     color: var(--normal);
 }

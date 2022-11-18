@@ -38,7 +38,7 @@ body{
 }
 .sectionreponse{
     text-align:center;
-    
+
 }
 .reponseavatar{
     width:60vw;
@@ -78,4 +78,31 @@ body{
     color: var(--texte-alt );
     width:60vw;
     text-align:center;
+}
+.modaleprogression, #modalefinale{  
+    position:fixed;
+    background-color:var(--background-black);
+    border-color:var(--normal);
+    border-radius:15px;
+    padding:3%;
+    display:flex;flex-direction:column;
+    justify-content:center;align-items:center;
+    text-align:center;
+
+}
+.modaleprogression{
+    width:40vw;
+    height:40vh;
+    margin-top:-170vh;
+   
+}
+#modalefinale{
+    position:abolsute !important;
+    width:60vw;
+    height:70vh;
+    margin-top:-118vh;
+    
+}
+#boutonfin{
+    height:8vh;
 }

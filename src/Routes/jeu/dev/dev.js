@@ -9,7 +9,7 @@ export default function Dev(props){
     let CodeBack = require('../../../img/back.jpg');
     const questions = [
 		{
-			questionText: 'Pour enregistrer les identifiants précédemment obtenus on crée un tableau pour renseigner les données sur la puce. On récupère ensuite les valeurs de ce tableau avec la variable Tableau. Il y a une erreur à vous de la trouver !',
+			questionText: 'Pour enregistrer les identifiants sur la puce de la carte, tu as besoin de les sauvegarder dans un tableau. Mais une erreur se produit, trouve celle que tu dois débugguer !',
 			answerOptions: [
 				{ answerText: 'Le schéma est mal déclaré', isCorrect: false },
 				{ answerText: 'La variable est mal déclarée', isCorrect: false },
@@ -18,10 +18,10 @@ export default function Dev(props){
             illustration : {CodeBack},
 		},
 		{
-			questionText: 'Nous allons maintenant faire en sorte que si la puce est scannée quelque part, elle puisse afficher les données renseignées sur la carte grâce à de au langage HTML. Il y a de nouveau une erreur dans le code mais laquelle ? ',
+			questionText: 'Pour que la puce puisse afficher quelque chose si elle est scannée tu implémentes les données dans une interface. Une erreur se produit de nouveau, mais laquelle ? ',
 			answerOptions: [
-				{ answerText: 'La balise p n est pas fermée', isCorrect: true },
-				{ answerText: 'Il manque une balise dans l html', isCorrect: false },
+				{ answerText: "Une des balises pas fermée  ", isCorrect: true },
+				{ answerText: "Il manque une balise dans l'html", isCorrect: false },
 				{ answerText: 'Le script est incorrect', isCorrect: false },
 			],
 		},
@@ -92,6 +92,7 @@ export default function Dev(props){
                         }
 					</div>
 					<div className='answer-section' class="sectionreponse">
+                     
                         {
                             showerror?<p>Mauvaise réponse !</p>:null
                         }
