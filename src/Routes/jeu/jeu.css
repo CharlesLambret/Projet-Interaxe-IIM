@@ -1,0 +1,109 @@
+@import "../../index.css";
+body{
+    background-image: url("../../img/backgroundenigmes.png");
+    background-size:100%;
+}
+.ContenantEnigme{
+    margin-top:5vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:8vh;
+    
+}
+.iconeetape{
+    width:22vw !important;
+    margin-left:0px !important;
+}
+.ContenantEnigme h1{
+    text-align:center;
+    align-self:center;
+    margin-top:8vh;
+    margin-bottom:6vh;
+}
+
+.ContenantEnigme img, .ContenantEnigme h3{
+    width:67vw;
+    margin-bottom:2vh;
+    text-align:justify;
+}
+#texteavatar{
+    text-align:center !important;
+}
+.ContenantEnigme button{
+    margin-top:5vh;
+    margin-left:1vw;
+    margin-right:1vw;
+}
+.sectionreponse{
+    text-align:center;
+
+}
+.reponseavatar{
+    width:60vw;
+    display:flex;
+    flex-direction:row;flex-wrap: wrap;
+}
+.finetape{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.contenujv{
+    display:flex;flex-direction:column;
+    justify-content:center;align-items:center;
+}
+.victoire{
+    display:flex;flex-direction:column;
+    justify-content:center;align-items:center;
+}
+.colonneavatar{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:12vw;
+    margin-right:1.5vw;
+    margin-left:1.5vw;
+    cursor:pointer;
+}
+.petiteimage{
+    max-width:100%;
+    margin-top:5vh;
+    margin-bottom:-1vh !important;
+}
+.texteindice{
+    color: var(--texte-alt );
+    width:60vw;
+    text-align:center;
+}
+.modaleprogression, #modalefinale{  
+    position:fixed;
+    background-color:var(--background-black);
+    border-color:var(--normal);
+    border-radius:15px;
+    padding:3%;
+    display:flex;flex-direction:column;
+    justify-content:center;align-items:center;
+    text-align:center;
+    z-index:999;
+
+}
+.modaleprogression{
+    width:40vw;
+    height:40vh;
+    margin-top:-170vh;
+   
+}
+#modalefinale{
+    position:abolsute !important;
+    width:60vw;
+    height:70vh;
+    margin-top:-118vh;
+    
+}
+#boutonfin{
+    height:8vh;
+}

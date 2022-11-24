@@ -1,0 +1,76 @@
+body{
+    background-image: url("./img/background.png"); 
+    background-size:100%;
+    padding:0px;
+    margin:0px;
+
+}
+:root{
+    --light: #EFFEED;
+    --light-over:#E8FEE4;
+    --light-active:#CFFDC8;
+    --normal : #63F74D;
+    --normal-hover:#59DE45;
+    --normal-active:#4FC63E;
+    --dark:#4AB93A;
+    --dark-hover:#3B942E;
+    --dark-active:#2D6F23;
+    --darker:#23561B;
+    --texte-alt : white;
+    --background-black : #2D2A2A;
+    --bouton : #08af2f;
+}
+h1, h2, h3 {
+    font-family: "Hack", bold;
+    color: var(--normal);
+}
+button, a{
+    font-family: "Hack", bold;
+    color: white !important;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+a :hover {
+    background-color:var(--normal);
+}
+span{
+    font-style:bold;
+}
+p {
+    font-family: "Hack";
+    color: var(--normal);
+}
+h1{
+
+}
+h2{
+    font-size:30px;
+}
+
+h3{
+    font-size:26px;
+}
+p{
+    font-size:22px;
+}
+a{
+
+}
+.bouton, .petitbouton{
+    background-color: var(--bouton);
+    box-shadow: rgba(207, 253, 200, 0.2) 0px 8px 24px;
+    border-radius:10px;
+    border:none;
+    color: white;
+}
+.bouton{
+    width:27vw;
+    height:7vh;
+}
+.petitbouton{
+    width:10vw;
+}
+.bouton :hover{
+    background-color:var(--normal-hover)
+}

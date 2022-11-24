@@ -1,0 +1,40 @@
+
+#contenantscenario{
+    width:50vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+#rappel{
+    width:30vw;
+    background-color: var(--background-black);
+    display:flex;
+    margin-top:3vh;
+    border-radius:15px;
+    padding:3%;
+    align-items:center;
+    justify-content:center;
+}
+#boutonscenar{
+    background-color: var(--normal);
+    border-radius:500%;
+    max-width:70px;
+    height:70px;
+    border:none;
+
+}
+.iconescenar{
+    max-width:60%;
+}
+.textemodal{
+    color:white;
+    text-align:justify;
+
+}
+
+
+
+
+
+
